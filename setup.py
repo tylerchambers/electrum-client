@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 setup(
     name='electrum_client',
     version='0.0.1',
-    description='A client library for Electrum.',
+    description='A minimal client library for Electrum.',
     long_description=readme,
     author='Tyler Chambers',
     author_email='me@tylerchambers.net',
@@ -20,7 +20,7 @@ setup(
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires = ['pycoin'],
-    keywords = ['bitcoin', 'electrum']
+    keywords = ['bitcoin', 'electrum'],
     classifiers=[
         'Development Status :: 3 - Alpha',      
         'Intended Audience :: Developers',      
@@ -28,5 +28,5 @@ setup(
         'License :: OSI Approved :: MIT License',   
         'Programming Language :: Python :: 3', 
         'Programming Language :: Python :: 3.8',
-    ],
+    ]
 )
