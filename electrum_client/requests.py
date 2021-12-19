@@ -70,8 +70,8 @@ class TransactionGetRequest(Request):
         super().__init__("blockchain.transaction.get", [txid, verbose])
 
 
-class TransactionMerkelRequest(Request):
-    def __init__(self, txid: str, height: str) -> None:
+class TransactionMerkleRequest(Request):
+    def __init__(self, txid: str, height: int) -> None:
         super().__init__("blockchain.transaction.get_merkle", [txid, height])
 
 
