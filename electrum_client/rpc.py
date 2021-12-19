@@ -2,6 +2,7 @@ import json
 import socket
 from .requests import Request
 
+
 class Client:
     def __init__(self, addr: str, port: int) -> None:
         self.conn = socket.create_connection((addr, port))

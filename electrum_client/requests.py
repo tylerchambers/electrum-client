@@ -1,5 +1,6 @@
 import json
 
+
 class Request:
     jsonrpc = "2.0"
 
